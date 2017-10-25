@@ -1,0 +1,19 @@
+#output{
+    width:500px;
+    height:500px;
+    background: tomato;
+}
+
+#output, .controls{
+    display: inline-block;
+    position: relative;
+}
+
+#item{
+    background: rgb(195, 223, 121);
+    height:50px;
+    width:50px;
+    border:1px solid black;
+    position: absolute;
+    bottom:0px;
+}

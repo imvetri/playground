@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>A playground for css transforms</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+    <h3>A playground for CSS3 transforms</h3>
+    <section>
+        <aside class='controls'>
+            <form id="controls">
+                <div class="none">
+                    <h4>None</h4>
+                    <button type="reset" />
+                </div>
+                <div class="translate">
+                    <h4>Translate</h4>
+                    <label for="xTranslate">x:</label>
+                    <input name="xTranslate" type="range" min="-10" max="10" />
+                    <!--Have a single input that can control both x and y-->
+                    <label for="yTranslate">y:</label>
+                    <input name="yTranslate" type="range" min="-10" max="10" />
+                </div>
+                <div class="scale">
+                    <h4>Scale</h4>
+                    <label for="xScale">x:</label>
+                    <input name="xScale" type="range" min="-10" max="10" />
+                    <label for="yScale">y:</label>
+                    <input name="yScale" type="range" min="-10" max="10" />
+                </div>
+                <div class="skew">
+                    <h4>Skew</h4>
+                    <label for="xSkew">x:</label>
+                    <input name="xSkew" type="range" min="-10" max="10" />
+                    <label for="ySkew">y:</label>
+                    <input name="ySkew" type="range" min="-10" max="10" />
+                </div>
+                <div class="rotate">
+                    <h4>Rotate</h4>
+                    <label for="xRotate">x:</label>
+                    <input name="xRotate" type="range" min="-10" max="10" />
+                    <label for="yRotate">y:</label>
+                    <input name="yRotate" type="range" min="-10" max="10" />
+                    <label for="zRotate">z:</label>
+                    <input name="zRotate" type="range" min="-10" max="10" />
+                </div>
+
+                <div class="perspective">
+                    <h4>Perspective</h4>
+                    <label for="perspectiveLength">x:</label>
+                    <input name="perspectiveLength" type="range" min="-10" max="10" />
+                </div>
+            </form>
+
+        </aside>
+        <main id="output">
+            <div id='item'>
+
+            </div>
+        </main>
+    </section>
+</body>
+
+</html>
